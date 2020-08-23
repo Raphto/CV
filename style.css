@@ -20,7 +20,7 @@ header
 {
 	display: flex;
 	max-width: 15% ;
-	background-color: #FF9E80 ;
+	background-color:  #f7cc0b ;
 	text-align: center;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -38,8 +38,8 @@ header
 
 .titregauche
 {
-	background-color: #3E2723;
-	color: #FF9E80 ;
+	background-color:    #464339;
+	color:  #f7cc0b ;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
@@ -48,7 +48,7 @@ header
 .titredroit
 {
 
-	border-bottom: 1px solid #FF9E80;
+	border-bottom: 1px solid  #f7cc0b;
 	margin-top: 8.5%;
 	padding-bottom: 2%
 }
@@ -62,7 +62,7 @@ header
 
 .raphael
 {
-	color: #FF9E80;
+	color:  #f7cc0b;
 }
 
 #droit
@@ -72,7 +72,7 @@ header
 
 .dev
 {
-	text-decoration : underline #FF9E80;
+	text-decoration : underline  #f7cc0b;
 }
 
 .raph
@@ -131,24 +131,28 @@ font-size: 4em;
 	padding-right: 9%
 }
 
-.fa-user-graduate , .fa-briefcase , .fa-pen , .fa-plane-departure , .fa-tv , .fa-dumbbell
+.fa-plane-departure , .fa-tv , .fa-dumbbell
 {
     font-size: 200%;
     margin-right: 5%;
-    color: #3E2723;
-
+    color:   #464339;
 }
-
+.fa-user-graduate , .fa-briefcase , .fa-pen
+{
+	   font-size: 200%;
+    margin-right: 5%;
+    color: #f7cc0b;
+}
 .fa-circle
 {
-	color: #3E2723;
+	color:  #f7cc0b ;
 	font-size: 10px;
 	padding-right: 2%;
 }
 
 .fa-dot-circle
 {
-	color: #3E2723;
+	color:  #f7cc0b;
 	padding-right: 2%;
 }
 
@@ -160,7 +164,7 @@ font-size: 4em;
 		display: flex;
 		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
 		max-width: 100%;
-		font-size: 150%
+		font-size: 180%
 	}
 	#gauche
 	{
