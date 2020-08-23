@@ -1,4 +1,4 @@
-#total
+body
 {
 	display: flex;
 	max-width: 80% ;
@@ -143,7 +143,7 @@ header
 
 @media all and (max-width: 1024px)
 {
-	#total
+	body
 	{
 		display: flex;
 		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
