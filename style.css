@@ -4,6 +4,7 @@ body
 	max-width: 80% ;
 	font-family: calibri, arial ;
 	font-size: 80%;
+	justify-content: center;
 }
 
 h5
