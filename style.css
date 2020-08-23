@@ -160,7 +160,7 @@ font-size: 4em;
 		display: flex;
 		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
 		max-width: 100%;
-		font-size: 180%
+		font-size: 200%
 	}
 	#gauche
 	{
