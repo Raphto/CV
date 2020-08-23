@@ -148,7 +148,7 @@ header
 		display: flex;
 		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
 		max-width: 100%;
-
+		font-size: 150%
 	}
 	#gauche
 	{
