@@ -97,6 +97,7 @@ list-style:none;
   float: left;
   color: #3E2723;
   width: 200px;
+ padding-top: -10%;
 }
 
 .fa-user-graduate , .fa-briefcase , .fa-pen , .fa-plane-departure , .fa-tv , .fa-dumbbell
