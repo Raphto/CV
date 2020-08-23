@@ -1,7 +1,6 @@
 body
 {
 	display: flex;
-	max-width: 80% ;
 	font-family: calibri, arial ;
 	font-size: 80%;
 	justify-content: center;
@@ -11,6 +10,12 @@ h5
 {
 	padding-bottom: 6%;
 }
+
+header
+{
+	margin-bottom: 10%;
+}
+
 #gauche
 {
 	display: flex;
@@ -21,6 +26,7 @@ h5
 	padding-bottom: 2%;
 
 }
+
 .moi{
   width : 150px; height : 150px;
   border: none;
@@ -28,8 +34,8 @@ h5
   -webkit-border-radius : 75px;
   border-radius : 75px;
  box-shadow: 10px 5px 5px black
-
 }
+
 .titregauche
 {
 	background-color: #3E2723;
@@ -38,35 +44,7 @@ h5
 	display: flex;
 	justify-content: space-around;
 }
-.texte1
-{
-	text-align: left;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.raphael
-{
-	color: #FF9E80;
 
-}
-
-#droit
-{
-	padding-left: 2%;
-
-}
-.dev
-{
-	text-decoration : underline #FF9E80;
-}
-.raph
-{
-font-size: 4em;
-}
-.devel
-{
-	font-size: 2em
-}
 .titredroit
 {
 
@@ -74,55 +52,64 @@ font-size: 4em;
 	margin-top: 8.5%;
 	padding-bottom: 2%
 }
+
+.texte1
+{
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.raphael
+{
+	color: #FF9E80;
+}
+
+#droit
+{
+	padding-left: 2%;
+}
+
+.dev
+{
+	text-decoration : underline #FF9E80;
+}
+
+.raph
+{
+font-size: 4em;
+}
+
+.devel
+{
+	font-size: 2em
+}
+
 .ohmeukal
 {
 	display: flex;
-
-
 }
+
 .nom
 {
 	margin-left: 8%
 }
+
 .nom2
 {
 	margin-left: 9%
 }
+
 .ra
 {
-	text-align: left;
-	margin-right: 5%;
-
-list-style:none;
-      content: "\2022";
+  text-align: left;
+  margin-right: 5%;
+  list-style:none;
+  content: "\2022";
   float: left;
   color: #3E2723;
   width: 200px;
- padding-top: -10%;
-}
-
-.fa-user-graduate , .fa-briefcase , .fa-pen , .fa-plane-departure , .fa-tv , .fa-dumbbell
-{
-
-    font-size: 200%;
-    margin-right: 5%;
-    color: #3E2723;
-}
-.fa-circle
-{
-	color: #3E2723;
-	font-size: 10px;
-	padding-right: 2%;
-}
-.fa-dot-circle
-{
-		color: #3E2723;
-	padding-right: 2%;
-}
-
-header
-{
-	margin-bottom: 10%;
+  padding-top: -10%;
 }
 
 .titrearticle
@@ -130,6 +117,7 @@ header
 	font-weight: bold;
 	font-size: 1.3em;
 }
+
 .loisirs
 {
 	padding-top: 10%;
@@ -142,6 +130,28 @@ header
 	text-align:center;
 	padding-right: 9%
 }
+
+.fa-user-graduate , .fa-briefcase , .fa-pen , .fa-plane-departure , .fa-tv , .fa-dumbbell
+{
+    font-size: 200%;
+    margin-right: 5%;
+    color: #3E2723;
+
+}
+
+.fa-circle
+{
+	color: #3E2723;
+	font-size: 10px;
+	padding-right: 2%;
+}
+
+.fa-dot-circle
+{
+	color: #3E2723;
+	padding-right: 2%;
+}
+
 
 @media all and (max-width: 1024px)
 {
