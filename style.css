@@ -113,6 +113,7 @@ font-size: 4em;
 {
 	font-weight: bold;
 	font-size: 1.3em;
+	color: black;
 }
 
 .loisirs
@@ -169,4 +170,16 @@ font-size: 4em;
 
 	}
 
+	.moi
+	{
+		width : 250px; height : 250px;
+		  border: none;
+  border-radius : 125px;
+ box-shadow: 10px 5px 5px black
+	}
+
+	.ra3
+	{
+		font-size: 70%;
+	}
 }
