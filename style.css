@@ -30,8 +30,6 @@ header
 .moi{
   width : 150px; height : 150px;
   border: none;
-  -moz-border-radius : 75px;
-  -webkit-border-radius : 75px;
   border-radius : 75px;
  box-shadow: 10px 5px 5px black
 }
@@ -109,7 +107,6 @@ font-size: 4em;
   float: left;
   color: #3E2723;
   width: 200px;
-  padding-top: -10%;
 }
 
 .titrearticle
@@ -126,9 +123,8 @@ font-size: 4em;
 .ra3
 {
 	list-style:none;
-	padding-left: 5%
-	text-align:center;
-	padding-right: 9%
+	padding-left: 10%;
+	padding-right: 9%;
 }
 
 .fa-plane-departure , .fa-tv , .fa-dumbbell
