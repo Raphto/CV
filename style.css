@@ -19,7 +19,7 @@ header
 #gauche
 {
 	display: flex;
-	max-width: 10% ;
+	max-width: 15% ;
 	background-color:  #f7cc0b ;
 	text-align: center;
 	padding-top: 2%;
@@ -180,6 +180,6 @@ font-size: 4em;
 
 	.ra3
 	{
-		font-size: 80%;
+		font-size: 70%;
 	}
 }
