@@ -1,4 +1,4 @@
-body
+#container
 {
 	display: flex;
 	font-family: calibri, arial ;
@@ -10,30 +10,37 @@ h5
 {
 	padding-bottom: 6%;
 }
-
-header
+a
 {
-	margin-bottom: 10%;
+	color:black;
+}
+#info p   /* enlever marge tout les p block info*/
+{
+ 	margin:0px
 }
 
-#gauche
+aside
 {
+	margin-bottom: 10%;
+	width: 200px;
 	display: flex;
-	max-width: 15% ;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 100%;
 	background-color:  #f7cc0b ;
 	text-align: center;
 	padding-top: 2%;
 	padding-bottom: 2%;
+	border:1px solid black;
 
 }
 
 .moi{
-  width : 150px; height : 150px;
+  width : 80%; height : 90%;
   border: none;
-  border-radius : 75px;
+  border-radius : 100%;
  box-shadow: 10px 5px 5px black
 }
-
 .titregauche
 {
 	background-color:    #464339;
@@ -47,7 +54,7 @@ header
 {
 
 	border-bottom: 1px solid  #f7cc0b;
-	margin-top: 8.5%;
+	margin-top: 15%;
 	padding-bottom: 2%
 }
 
@@ -56,6 +63,7 @@ header
 	text-align: left;
 	padding-left: 10%;
 	padding-right: 10%;
+
 }
 
 .raphael
@@ -63,9 +71,14 @@ header
 	color:  #f7cc0b;
 }
 
-#droit
+main
 {
+	padding-top: 3%;
 	padding-left: 2%;
+	padding-right: 5%;
+	border:1px solid black;
+
+	
 }
 
 .dev
@@ -86,6 +99,7 @@ font-size: 4em;
 .ohmeukal
 {
 	display: flex;
+	padding-top: 3%
 }
 
 .nom
@@ -101,24 +115,34 @@ font-size: 4em;
 .ra
 {
   text-align: left;
-  margin-right: 5%;
+  margin-right: 0%;
   list-style:none;
   content: "\2022";
   float: left;
   color: #3E2723;
   width: 200px;
-}
+  padding-left: 0px;
 
+}
+.ra2
+{
+
+}
 .titrearticle
 {
 	font-weight: bold;
 	font-size: 1.3em;
 	color: black;
 }
+.propos
+ {
+ 	padding-bottom: 80%
+ }
 
 .loisirs
 {
 	padding-top: 10%;
+
 }
 
 .ra3
@@ -126,8 +150,14 @@ font-size: 4em;
 	list-style:none;
 	padding-left: 10%;
 	padding-right: 9%;
+	padding-left: 0px;
 }
-
+.ra4
+{
+	list-style:none;
+	padding-left: 15%;
+	padding-right: 9%;
+}
 .fa-plane-departure , .fa-tv , .fa-dumbbell
 {
     font-size: 200%;
@@ -136,7 +166,7 @@ font-size: 4em;
 }
 .fa-user-graduate , .fa-briefcase , .fa-pen
 {
-	   font-size: 200%;
+	   font-size: 150%;
     margin-right: 5%;
     color: #f7cc0b;
 }
@@ -156,30 +186,100 @@ font-size: 4em;
 
 @media all and (max-width: 1024px)
 {
-	body
+	
+	#container
 	{
 		display: flex;
 		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
 		max-width: 100%;
-		font-size: 200%
+		font-size: 150%
 	}
-	#gauche
+	.titredroit
 	{
 
-		max-width: 100% ;
-
+	border-bottom: 1px solid  #f7cc0b;
+	margin-top: 8%;
+	padding-bottom: 2%
 	}
+	aside
+	{
+		display: flex;
+		width: 100%;
+	}
+	main
+	{
+		width: 93%;
+	}
+	.propos
+ 	{
+ 	padding-bottom: 5%
+ 	}
 
 	.moi
 	{
-		width : 300px; height : 300px;
-		  border: none;
-  border-radius : 150px;
+  width : 60%; height : 70%;
+  border: none;
+  border-radius : 100%;
+ box-shadow: 10px 5px 5px black;
+ margin-top:10%;
+	}
+	.ra3
+	{
+		font-size: 90%;
+	}
+
+	.fa-user-graduate , .fa-briefcase , .fa-pen
+{
+	   font-size: 100%;
+    margin-right: 5%;
+    color: #f7cc0b;
+}
+}
+
+@media all and (max-width: 700px)
+{
+	#container
+	{
+		display: flex;
+		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
+		max-width: 100%;
+		font-size: 100%
+	}
+	aside
+	{
+		display: flex;
+		width: 100%;
+	}
+	.titredroit
+	{
+
+	border-bottom: 1px solid  #f7cc0b;
+	margin-top: 8%;
+	padding-bottom: 2%
+	}
+	.propos
+ 	{
+ 	padding-bottom: 5%
+ 	}
+
+	.moi
+	{
+  width : 60%; height : 70%;
+  border: none;
+  border-radius : 100%;
  box-shadow: 10px 5px 5px black
+  margin-top:10%;
 	}
 
 	.ra3
 	{
-		font-size: 70%;
+		font-size: 90%;
 	}
+
+	.fa-user-graduate , .fa-briefcase , .fa-pen
+{
+	   font-size: 100%;
+    margin-right: 5%;
+    color: #f7cc0b;
+}
 }
