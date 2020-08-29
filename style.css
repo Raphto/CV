@@ -2,23 +2,15 @@
 {
 	display: flex;
 	font-family: calibri, arial ;
-	font-size: 80%;
+	font-size: 90%;
 	justify-content: center;
 }
-
-h5
+main
 {
-	padding-bottom: 6%;
+	padding-top: 3%;
+	padding-left: 2%;
+	padding-right: 5%;	
 }
-a
-{
-	color:black;
-}
-#info p   /* enlever marge tout les p block info*/
-{
- 	margin:0px
-}
-
 aside
 {
 	margin-bottom: 10%;
@@ -33,11 +25,34 @@ aside
 	padding-bottom: 2%;
 
 }
-main
+.espacement {
+		padding-left: 17px;
+	}
+.ohmeukal p {
+	margin: 0px;
+	padding: 0;
+}
+.ohmeukal h3 {
+	margin: 0px;
+	padding: 0;
+}
+
+.infos {
+	width: 75%;
+}
+
+h5
 {
-	padding-top: 3%;
-	padding-left: 2%;
-	padding-right: 5%;	
+	padding-bottom: 6%;
+}
+a
+{
+	color:black;
+}
+
+#info p   /* enlever marge tout les p block info*/
+{
+ 	margin:0px
 }
 
 .moi{
@@ -76,7 +91,6 @@ main
 	color:  #f7cc0b;
 }
 
-
 .dev
 {
 	text-decoration : underline  #f7cc0b;
@@ -95,7 +109,21 @@ font-size: 4em;
 .ohmeukal
 {
 	display: flex;
-	padding-top: 3%
+	flex-direction: column;
+	padding-top: 3%;
+}
+.ohmeukal2
+{
+	display: flex;
+	padding-right: 10%;
+	padding-top: 3%;
+	max-width: 80%;
+}
+.coucou
+{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5%
 }
 
 .nom
@@ -111,13 +139,11 @@ font-size: 4em;
 .ra
 {
   text-align: left;
-  margin-right: 0%;
+  margin: 0px;
   list-style:none;
-  content: "\2022";
-  float: left;
   color: #3E2723;
   width: 200px;
-  padding-left: 0px;
+  padding: 0px;
 
 }
 .ra2
@@ -144,9 +170,9 @@ font-size: 4em;
 .ra3
 {
 	list-style:none;
-	padding-left: 10%;
+	padding-left: 0%;
 	padding-right: 9%;
-	padding-left: 0px;
+
 }
 .ra4
 {
@@ -169,7 +195,7 @@ font-size: 4em;
 .fa-circle
 {
 	color:  #f7cc0b ;
-	font-size: 10px;
+	font-size: 8px;
 	padding-right: 2%;
 }
 
@@ -230,6 +256,18 @@ font-size: 4em;
     margin-right: 5%;
     color: #f7cc0b;
 }
+	.loisirs
+	{
+		padding : 1%;
+			display: flex;
+	justify-content: space-around;
+	}
+	.ra3
+{
+	list-style:none;
+	padding-left: 5%;
+	padding-right: 9%;
+}
 }
 
 @media all and (max-width: 700px)
@@ -270,7 +308,12 @@ font-size: 4em;
 	.ra3
 	{
 		font-size: 90%;
+		list-style:none;
+	padding-left: 5%;
+	padding-right: 9%;
 	}
+
+
 
 	.fa-user-graduate , .fa-briefcase , .fa-pen
 {
@@ -278,4 +321,11 @@ font-size: 4em;
     margin-right: 5%;
     color: #f7cc0b;
 }
+	.loisirs
+	{
+		padding : 1%;
+			display: flex;
+	justify-content: space-around;
+	}
 }
+
