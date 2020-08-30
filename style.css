@@ -14,7 +14,7 @@ main
 aside
 {
 	margin-bottom: 10%;
-	width: 200px;
+	width: 250px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -23,21 +23,28 @@ aside
 	text-align: center;
 	padding-top: 2%;
 	padding-bottom: 2%;
-
 }
-.espacement {
-		padding-left: 17px;
-	}
-.ohmeukal p {
+.espacement 
+{
+	padding-left: 26px;
+}
+.espacement2
+{
+	padding-left: 26px;
+}
+.ohmeukal p 
+{
 	margin: 0px;
 	padding: 0;
 }
-.ohmeukal h3 {
+.ohmeukal h3 
+{
 	margin: 0px;
 	padding: 0;
 }
 
-.infos {
+.infos 
+{
 	width: 75%;
 }
 
@@ -48,18 +55,20 @@ h5
 a
 {
 	color:black;
+	text-decoration:none;
 }
 
 #info p   /* enlever marge tout les p block info*/
 {
- 	margin:0px
+ 	margin:0px;
 }
 
-.moi{
-  width : 80%; height : 90%;
-  border: none;
-  border-radius : 100%;
- box-shadow: 10px 5px 5px black
+.moi
+{
+	width : 80%; height : 90%;
+	border: none;
+	border-radius : 100%;
+	box-shadow: 10px 5px 5px black;
 }
 .titregauche
 {
@@ -75,15 +84,13 @@ a
 
 	border-bottom: 1px solid  #f7cc0b;
 	margin-top: 15%;
-	padding-bottom: 2%
+	padding-bottom: 2%;
 }
-
 .texte1
 {
 	text-align: left;
 	padding-left: 10%;
 	padding-right: 10%;
-
 }
 
 .raphael
@@ -98,12 +105,12 @@ a
 
 .raph
 {
-font-size: 4em;
+	font-size: 4em;
 }
 
 .devel
 {
-	font-size: 2em
+	font-size: 2em;
 }
 
 .ohmeukal
@@ -117,38 +124,31 @@ font-size: 4em;
 	display: flex;
 	padding-right: 10%;
 	padding-top: 3%;
-	max-width: 80%;
+	max-width: 100%;
 }
 .coucou
 {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 5%
+	margin-bottom: 5%;
 }
 
 .nom
 {
-	margin-left: 8%
+	margin-left: 8%;
 }
-
 .nom2
 {
-	margin-left: 9%
+	margin-left: 9%;
 }
-
 .ra
 {
-  text-align: left;
-  margin: 0px;
-  list-style:none;
-  color: #3E2723;
-  width: 200px;
-  padding: 0px;
-
-}
-.ra2
-{
-
+  	text-align: left;
+  	margin: 0px;
+  	list-style:none;
+  	color: #3E2723;
+ 	width: 200px;
+  	padding: 0px;
 }
 .titrearticle
 {
@@ -158,13 +158,12 @@ font-size: 4em;
 }
 .propos
  {
- 	padding-bottom: 80%
+ 	padding-bottom: 80%;
  }
 
 .loisirs
 {
 	padding-top: 10%;
-
 }
 
 .ra3
@@ -172,7 +171,6 @@ font-size: 4em;
 	list-style:none;
 	padding-left: 0%;
 	padding-right: 9%;
-
 }
 .ra4
 {
@@ -188,7 +186,7 @@ font-size: 4em;
 }
 .fa-user-graduate , .fa-briefcase , .fa-pen
 {
-	   font-size: 150%;
+	font-size: 150%;
     margin-right: 5%;
     color: #f7cc0b;
 }
@@ -196,13 +194,14 @@ font-size: 4em;
 {
 	color:  #f7cc0b ;
 	font-size: 8px;
-	padding-right: 2%;
+	padding-right: 10%;
 }
 
 .fa-dot-circle
 {
 	color:  #f7cc0b;
-	padding-right: 2%;
+	padding-right: 6%;
+	font-size: 16px;
 }
 
 
@@ -211,104 +210,108 @@ font-size: 4em;
 	
 	#container
 	{
-		display: flex;
-		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
-		max-width: 100%;
-		font-size: 150%
+	display: flex;
+	flex-direction: column-reverse; /*commande interessante aussi display:none;*/
+	max-width: 100%;
+	font-size: 150%;
 	}
 	.titredroit
 	{
-
 	border-bottom: 1px solid  #f7cc0b;
 	margin-top: 8%;
-	padding-bottom: 2%
+	padding-bottom: 2%;
 	}
 	aside
 	{
-		display: flex;
-		width: 100%;
+	display: flex;
+	width: 100%;
 	}
 	main
 	{
-		width: 93%;
+	width: 93%;
 	}
 	.propos
  	{
- 	padding-bottom: 5%
+ 	padding-bottom: 5%;
  	}
-
 	.moi
 	{
-  width : 60%; height : 70%;
-  border: none;
-  border-radius : 100%;
- box-shadow: 10px 5px 5px black;
- margin-top:10%;
+  	width : 60%; height : 70%;
+  	border: none;
+  	border-radius : 100%;
+ 	box-shadow: 10px 5px 5px black;
+ 	margin-top:10%;
 	}
 	.ra3
 	{
-		font-size: 90%;
+	font-size: 90%;
 	}
-
 	.fa-user-graduate , .fa-briefcase , .fa-pen
-{
-	   font-size: 100%;
+	{
+	font-size: 100%;
     margin-right: 5%;
     color: #f7cc0b;
-}
+	}
 	.loisirs
 	{
-		padding : 1%;
-			display: flex;
+	padding : 1%;
+	display: flex;
 	justify-content: space-around;
 	}
 	.ra3
-{
+	{
 	list-style:none;
 	padding-left: 5%;
 	padding-right: 9%;
-}
+	}
+	.espacement 
+	{
+	padding-left: 28px;
+	}
+.espacement2
+	{
+	padding-left: 28px;
+	}
 }
 
 @media all and (max-width: 700px)
 {
 	#container
 	{
-		display: flex;
-		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
-		max-width: 100%;
-		font-size: 100%
+	display: flex;
+	flex-direction: column-reverse; /*commande interessante aussi display:none;*/
+	max-width: 100%;
+	font-size: 100%;
 	}
 	aside
 	{
-		display: flex;
-		width: 100%;
+	display: flex;
+	width: 100%;
 	}
 	.titredroit
 	{
-
 	border-bottom: 1px solid  #f7cc0b;
 	margin-top: 8%;
-	padding-bottom: 2%
+	padding-bottom: 2%;
 	}
 	.propos
  	{
- 	padding-bottom: 5%
+ 	padding-bottom: 5%;
  	}
 
 	.moi
 	{
-  width : 60%; height : 70%;
-  border: none;
-  border-radius : 100%;
- box-shadow: 10px 5px 5px black;
-  margin-top:10%;
+  	width : 60%; height : 70%;
+ 	border: none;
+  	border-radius : 100%;
+ 	box-shadow: 10px 5px 5px black;
+ 	margin-top:10%;
 	}
 
 	.ra3
 	{
-		font-size: 90%;
-		list-style:none;
+	font-size: 90%;
+	list-style:none;
 	padding-left: 5%;
 	padding-right: 9%;
 	}
@@ -316,16 +319,24 @@ font-size: 4em;
 
 
 	.fa-user-graduate , .fa-briefcase , .fa-pen
-{
-	   font-size: 100%;
+	{
+	font-size: 100%;
     margin-right: 5%;
     color: #f7cc0b;
-}
+	}
 	.loisirs
 	{
-		padding : 1%;
-			display: flex;
+	padding : 1%;
+	display: flex;
 	justify-content: space-around;
+	}
+	.espacement 
+	{
+	padding-left: 24px;
+	}
+	.espacement2
+	{
+	padding-left: 26px;
 	}
 }
 
