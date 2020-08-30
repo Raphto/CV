@@ -210,67 +210,67 @@ a
 	
 		#container
 		{
-		display: flex;
-		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
-		max-width: 100%;
-		font-size: 150%;
+			display: flex;
+			flex-direction: column-reverse; /*commande interessante aussi display:none;*/
+			max-width: 100%;
+			font-size: 150%;
 		}
 		.titredroit
 		{
-		border-bottom: 1px solid  #f7cc0b;
-		margin-top: 8%;
-		padding-bottom: 2%;
+			border-bottom: 1px solid  #f7cc0b;
+			margin-top: 8%;
+			padding-bottom: 2%;
 		}
 		aside
 		{
-		display: flex;
-		width: 100%;
+			display: flex;
+			width: 100%;
 		}
 		main
 		{
-		width: 93%;
+			width: 93%;
 		}
 		.propos
 	 	{
-	 	padding-bottom: 5%;
+	 		padding-bottom: 5%;
 	 	}
 		.moi
 		{
-	  	width : 60%; height : 70%;
-	  	border: none;
-	  	border-radius : 100%;
-	 	box-shadow: 10px 5px 5px black;
-	 	margin-top:10%;
+		  	width : 60%; height : 70%;
+		  	border: none;
+		  	border-radius : 100%;
+		 	box-shadow: 10px 5px 5px black;
+		 	margin-top:10%;
 		}
 		.ra3
 		{
-		font-size: 90%;
+			font-size: 90%;
 		}
 		.fa-user-graduate , .fa-briefcase , .fa-pen
 		{
-		font-size: 100%;
-	    margin-right: 5%;
-	    color: #f7cc0b;
+			font-size: 100%;
+		    margin-right: 5%;
+		    color: #f7cc0b;
 		}
 		.loisirs
 		{
-		padding : 1%;
-		display: flex;
-		justify-content: space-around;
+			padding : 1%;
+			display: flex;
+			justify-content: space-around;
 		}
 		.ra3
 		{
-		list-style:none;
-		padding-left: 5%;
-		padding-right: 9%;
+			list-style:none;
+			padding-left: 5%;
+			padding-right: 9%;
 		}
 		.espacement 
 		{
-		padding-left: 28px;
+			padding-left: 28px;
 		}
 		.espacement2
 		{
-		padding-left: 28px;
+			padding-left: 28px;
 		}
 }
 
@@ -278,74 +278,74 @@ a
 {
 		#container
 		{
-		display: flex;
-		flex-direction: column-reverse; /*commande interessante aussi display:none;*/
-		max-width: 100%;
-		font-size: 100%;
+			display: flex;
+			flex-direction: column-reverse; /*commande interessante aussi display:none;*/
+			max-width: 100%;
+			font-size: 100%;
 		}
 		aside
 		{
-		display: flex;
-		width: 100%;
+			display: flex;
+			width: 100%;
 		}
 		.titredroit
 		{
-		border-bottom: 1px solid  #f7cc0b;
-		margin-top: 8%;
-		padding-bottom: 2%;
+			border-bottom: 1px solid  #f7cc0b;
+			margin-top: 8%;
+			padding-bottom: 2%;
 		}
 		.propos
 	 	{
-	 	padding-bottom: 5%;
+	 		padding-bottom: 5%;
 	 	}
 
 		.moi
 		{
-	  	width : 60%; height : 70%;
-	 	border: none;
-	  	border-radius : 100%;
-	 	box-shadow: 10px 5px 5px black;
-	 	margin-top:10%;
+		  	width : 60%; height : 70%;
+		 	border: none;
+		  	border-radius : 100%;
+		 	box-shadow: 10px 5px 5px black;
+		 	margin-top:10%;
 		}
 
 		.ra3
 		{
-		font-size: 90%;
-		list-style:none;
-		padding-left: 5%;
-		padding-right: 9%;
+			font-size: 90%;
+			list-style:none;
+			padding-left: 5%;
+			padding-right: 9%;
 		}
 		.fa-user-graduate , .fa-briefcase , .fa-pen
 		{
-		font-size: 100%;
-	    margin-right: 5%;
-	    color: #f7cc0b;
+			font-size: 100%;
+		    margin-right: 5%;
+		    color: #f7cc0b;
 		}
 		.loisirs
 		{
-		padding : 1%;
-		display: flex;
-		justify-content: space-around;
+			padding : 1%;
+			display: flex;
+			justify-content: space-around;
 		}
 		.espacement 
 		{
-		padding-left: 24px;
+			padding-left: 24px;
 		}
 		.espacement2
 		{
-		padding-left: 26px;
+			padding-left: 26px;
 		}
 		.ra3
 		{
-		list-style:none;
-		padding-left: 0%;
-		padding-right: 5%;
+			list-style:none;
+			padding-left: 0%;
+			padding-right: 5%;
 		}
 		.ra4
 		{
-		list-style:none;
-		padding-left: 5%;
-		margin-right: 18%;
+			list-style:none;
+			padding-left: 5%;
+			margin-right: 18%;
 		}
 }
 
